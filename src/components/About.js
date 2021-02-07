@@ -1,36 +1,18 @@
 import React from 'react'
+import Banner from './Banner';
 
 function About() {
 
   return (
     <>
-      <section
-        className="hero-wrap hero-wrap-2"
-        style={{
-          backgroundImage:
-            'url(https://images.unsplash.com/photo-1498612753354-772a30629934?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80)',
-        }}
-        data-stellar-background-ratio="0.5"
-      >
-        <div className="overlay"></div>
-        <div className="container">
-          <div className="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-            <div className="col-md-9 ftco-animate text-center">
-              <h1 className="mb-3 bread" style={{ color: 'white' }}>
-                About Arrive Mindful
-              </h1>
-              <p className="breadcrumbs">
-                {/* <span className="mr-2">
-                  <a href="home.html">Home</a>
-                </span>{' '} */}
-                <span style={{ color: 'white' }}>
-                  A Yoga and Mindfulness Journey
-                </span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Banner
+        background={
+          'https://images.unsplash.com/photo-1498612753354-772a30629934?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80'
+        }
+        header={'About Arrive Mindful'}
+        detail={'A Yoga and Mindfulness Journey'}
+        textColor={'white'}
+      />
 
       <section className="ftco-section">
         <div className="container">
