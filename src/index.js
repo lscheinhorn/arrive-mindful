@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/style.css'
-import { Navbar, Footer, Home } from './components';
+import { Navbar, Footer, Home, Gallery } from './components';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,8 +10,13 @@ ReactDOM.render(
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/schedule.html">
+        <Route path="/index.html">
           <Home />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route path="/gallery.html">
+          <Gallery />
         </Route>
       </Switch>
       <Footer />

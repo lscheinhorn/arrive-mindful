@@ -6,7 +6,7 @@ function Home() {
       <section className="home-slider js-fullheight owl-carousel">
         <div
           className="slider-item js-fullheight"
-          style={{ backgroundImage: 'url(/VStarYoga2.JPG)' }}
+          style={{ backgroundImage: 'url(/gallery/VStarYoga2.JPG)' }}
         >
           <div className="overlay"></div>
           <div className="container">
