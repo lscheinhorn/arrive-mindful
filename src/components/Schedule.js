@@ -4,20 +4,28 @@ import Banner from './Banner'
 function Schedule(props) {
   return (
     <>
-      <Banner
-        background={
-          'https://images.unsplash.com/photo-1533741761835-c67cadbffd3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2747&q=80'
-        }
-        header={'Class Schedule'}
-        detail={'Monthly Offerings'}
-        textColor={'white'}
-      />
+      {props.banner ? (
+        <Banner
+          background={
+            'https://images.unsplash.com/photo-1533741761835-c67cadbffd3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2747&q=80'
+          }
+          header={'Class Schedule'}
+          detail={'Monthly Offerings'}
+          textColor={'white'}
+        />
+      ) : null}
+
       <section className="ftco-section bg-light">
         <div className="container">
           <div className="row justify-content-center mb-5 pb-3">
             <div className="col-md-7 heading-section ftco-animate text-center">
               <h2 className="mb-1">
-                This {props.range === 'week' ? "Week's" : "Month's"} Schedule
+                {props.range === 'week'
+                  ? "This Week's"
+                  : `${new Date().toLocaleString('default', {
+                      month: 'long',
+                    })}'s`}{' '}
+                Schedule
               </h2>
             </div>
           </div>

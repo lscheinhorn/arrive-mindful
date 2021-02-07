@@ -24,10 +24,10 @@ function Home() {
                 </h3>
                 <p>
                   <a
-                    href="#"
+                    href="classes.html"
                     className="btn btn-white btn-outline-white px-4 py-3 mt-3"
                   >
-                    View our works
+                    View classes
                   </a>
                 </p>
               </div>

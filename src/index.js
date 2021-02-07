@@ -33,7 +33,7 @@ ReactDOM.render(
       </Switch>
       <Switch>
         <Route path="/schedule.html">
-          <Schedule range="month" />
+          <Schedule range="month" banner={true} />
         </Route>
       </Switch>
       <Footer />
