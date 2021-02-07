@@ -1,3 +1,9 @@
+# Arrive Mindful App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The template for this app is derived from the **meditative-master** template from [Colorlib](https://colorlib.com) and was modified for React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
