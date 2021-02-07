@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/style.css'
+import './css/flaticon.css';
+import './css/icomoon.css';
 import { Navbar, Footer, Home, Gallery } from './components';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
