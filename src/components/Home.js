@@ -1,7 +1,7 @@
 import React from 'react';
 import RecentPosts from './RecentPosts';
 import LatestPhotos from './LatestPhotos';
-import WeekSchedule from './WeekSchedule'
+import Schedule from './Schedule'
 
 function Home() {
   return (
@@ -298,7 +298,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <WeekSchedule />
+      <Schedule range={'week'} />
       <RecentPosts />
       <LatestPhotos />
     </>
