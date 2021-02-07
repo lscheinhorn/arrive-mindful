@@ -10,7 +10,7 @@ ReactDOM.render(
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/index.html">
+        <Route path="/home.html">
           <Home />
         </Route>
       </Switch>

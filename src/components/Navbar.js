@@ -10,7 +10,7 @@ function Navbar() {
         <div className="container">
           <div className="row m-auto">
             <div className="col-12 w-100 text-center">
-              <a className="navbar-brand w-100" href="index.html">
+              <a className="navbar-brand w-100" href="home.html">
                 Arrive Mindful
               </a>
               <button
@@ -29,7 +29,7 @@ function Navbar() {
               <div className="collapse navbar-collapse" id="ftco-nav">
                 <ul className="navbar-nav m-auto">
                   <li className="nav-item active">
-                    <a href="index.html" className="nav-link">
+                    <a href="home.html" className="nav-link">
                       Home
                     </a>
                   </li>

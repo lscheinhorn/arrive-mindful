@@ -73,8 +73,7 @@ function Home() {
                 <div
                   className="img"
                   style={{
-                    backgroundImage:
-                      'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    backgroundImage: 'url(/gallery/VStarYoga2.JPG)',
                   }}
                 ></div>
                 <div className="text mt-4">
@@ -99,8 +98,7 @@ function Home() {
                 <div
                   className="img"
                   style={{
-                    backgroundImage:
-                      'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    backgroundImage: 'url(/gallery/VStarYoga3.JPG)',
                   }}
                 ></div>
                 <div className="text mt-4">
@@ -125,8 +123,7 @@ function Home() {
                 <div
                   className="img"
                   style={{
-                    backgroundImage:
-                      'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    backgroundImage: 'url(/gallery/VStarYoga1.JPG)',
                   }}
                 ></div>
                 <div className="text mt-4">
@@ -151,8 +148,7 @@ function Home() {
                 <div
                   className="img"
                   style={{
-                    backgroundImage:
-                      'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    backgroundImage: 'url(/gallery/VStarYoga4.JPG)',
                   }}
                 ></div>
                 <div className="text mt-4">
