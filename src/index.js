@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './css/style.css'
 import './css/flaticon.css';
 import './css/icomoon.css';
-import { Navbar, Footer, Home, Gallery } from './components';
+import { Navbar, Footer, Home, Gallery, About, Classes } from './components';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -19,6 +19,16 @@ ReactDOM.render(
       <Switch>
         <Route path="/gallery.html">
           <Gallery />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route path="/about.html">
+          <About />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route path="/classes.html">
+          <Classes />
         </Route>
       </Switch>
       <Footer />

@@ -20,7 +20,7 @@ function Home() {
               <div className="col-md-10 text ftco-animate text-center">
                 <h1 className="mb-4">Discover Your Inner Sanctuary</h1>
                 <h3 className="subheading">
-                  Everyday We Bring Hope and Smile to the Patient We Serve
+                  Everyday We Can Bring Compassion and Awareness to Ourselves Without Judgement
                 </h3>
                 <p>
                   <a
@@ -180,7 +180,7 @@ function Home() {
         <div className="container">
           <div className="row justify-content-center mb-5 pb-3">
             <div className="col-md-12 heading-section ftco-animate text-center">
-              <h2 className="mb-1">Experience of Yoga</h2>
+              <h2 className="mb-1">Benefits of Yoga</h2>
             </div>
           </div>
           <div className="row">
@@ -190,7 +190,7 @@ function Home() {
                   <span className="flaticon-meditation"></span>
                 </div>
                 <div className="text text-md-right pl-4 pl-md-0 pr-md-4">
-                  <h3>Balance Body &amp; Mind</h3>
+                  <h3>Balances Body &amp; Mind</h3>
                   <p>
                     A small river named Duden flows by their place and supplies
                     it with the necessary regelialia.
