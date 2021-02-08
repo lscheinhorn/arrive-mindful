@@ -20,7 +20,7 @@ function Gallery() {
                 className="gallery image-popup img d-flex align-items-center"
                 style={{
                   backgroundImage:
-                    'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    'url(https://images.unsplash.com/photo-1562776854-d151b0dd5ec0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2851&q=80)',
                 }}
               >
                 <div className="icon mb-4 d-flex align-items-center justify-content-center">
@@ -34,7 +34,7 @@ function Gallery() {
                 className="gallery image-popup img d-flex align-items-center"
                 style={{
                   backgroundImage:
-                    'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    'url(https://images.unsplash.com/photo-1611800065476-b295f882c8ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2904&q=80)',
                 }}
               >
                 <div className="icon mb-4 d-flex align-items-center justify-content-center">
@@ -48,7 +48,7 @@ function Gallery() {
                 className="gallery image-popup img d-flex align-items-center"
                 style={{
                   backgroundImage:
-                    'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    'url(https://images.unsplash.com/photo-1528319355578-ebbbc586afac?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80)',
                 }}
               >
                 <div className="icon mb-4 d-flex align-items-center justify-content-center">
@@ -62,7 +62,7 @@ function Gallery() {
                 className="gallery image-popup img d-flex align-items-center"
                 style={{
                   backgroundImage:
-                    'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    'url(https://images.unsplash.com/photo-1591291621164-2c6367723315?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2851&q=80)',
                 }}
               >
                 <div className="icon mb-4 d-flex align-items-center justify-content-center">
@@ -77,7 +77,7 @@ function Gallery() {
                 className="gallery image-popup img d-flex align-items-center"
                 style={{
                   backgroundImage:
-                    'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    'url(https://images.unsplash.com/photo-1501718037961-bb722c970f08?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2766&q=80)',
                 }}
               >
                 <div className="icon mb-4 d-flex align-items-center justify-content-center">
@@ -91,7 +91,7 @@ function Gallery() {
                 className="gallery image-popup img d-flex align-items-center"
                 style={{
                   backgroundImage:
-                    'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    'url(https://images.unsplash.com/photo-1552911163-16e36d8519ce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80)',
                 }}
               >
                 <div className="icon mb-4 d-flex align-items-center justify-content-center">
@@ -105,7 +105,7 @@ function Gallery() {
                 className="gallery image-popup img d-flex align-items-center"
                 style={{
                   backgroundImage:
-                    'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    'url(https://images.unsplash.com/photo-1520363147109-9ab9d1c8f8a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2848&q=80)',
                 }}
               >
                 <div className="icon mb-4 d-flex align-items-center justify-content-center">
@@ -119,7 +119,7 @@ function Gallery() {
                 className="gallery image-popup img d-flex align-items-center"
                 style={{
                   backgroundImage:
-                    'url(https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350)',
+                    'url(https://images.unsplash.com/photo-1502139214982-d0ad755818d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80)',
                 }}
               >
                 <div className="icon mb-4 d-flex align-items-center justify-content-center">

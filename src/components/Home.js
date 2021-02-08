@@ -9,7 +9,7 @@ function Home() {
       <section className="home-slider js-fullheight owl-carousel">
         <div
           className="slider-item js-fullheight"
-          style={{ backgroundImage: 'url(/gallery/VStarYoga2.JPG)' }}
+          style={{ backgroundImage: 'url(/images/VStarYoga2.JPG)' }}
         >
           <div className="overlay"></div>
           <div className="container">
@@ -24,7 +24,7 @@ function Home() {
                 </h3>
                 <p>
                   <a
-                    href="classes.html"
+                    href="classes"
                     className="btn btn-white btn-outline-white px-4 py-3 mt-3"
                   >
                     View classes
@@ -76,7 +76,7 @@ function Home() {
                 <div
                   className="img"
                   style={{
-                    backgroundImage: 'url(/gallery/VStarYoga4.JPG)',
+                    backgroundImage: 'url(/images/VStarYoga4.JPG)',
                   }}
                 ></div>
                 <div className="text mt-4">
@@ -101,7 +101,7 @@ function Home() {
                 <div
                   className="img"
                   style={{
-                    backgroundImage: 'url(/gallery/VStarYoga1.JPG)',
+                    backgroundImage: 'url(/images/VStarYoga1.JPG)',
                   }}
                 ></div>
                 <div className="text mt-4">
@@ -126,7 +126,7 @@ function Home() {
                 <div
                   className="img"
                   style={{
-                    backgroundImage: 'url(/gallery/VStarYoga3.JPG)',
+                    backgroundImage: 'url(/images/VStarYoga3.JPG)',
                   }}
                 ></div>
                 <div className="text mt-4">

@@ -12,35 +12,38 @@ ReactDOM.render(
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/home.html">
+        <Route path="/home">
           <Home />
         </Route>
       </Switch>
       <Switch>
-        <Route path="/gallery.html">
+        <Route path="/gallery">
           <Gallery />
         </Route>
       </Switch>
       <Switch>
-        <Route path="/about.html">
+        <Route path="/about">
           <About />
         </Route>
       </Switch>
       <Switch>
-        <Route path="/classes.html">
+        <Route path="/classes">
           <Classes />
         </Route>
       </Switch>
       <Switch>
-        <Route path="/schedule.html">
+        <Route path="/schedule">
           <Schedule range="month" banner={true} />
         </Route>
       </Switch>
       <Switch>
-        <Route path="/blog.html">
+        <Route path="/blog">
           <Blog />
         </Route>
       </Switch>
+      <Route exact path="/">
+        <Home />
+      </Route>
       <Footer />
     </Router>
   </React.StrictMode>,

@@ -15,7 +15,7 @@ function RecentPosts() {
             <div className="col-md-4 d-flex ftco-animate">
               <div className="blog-entry justify-content-end">
                 <a
-                  href="blog-single.html"
+                  href="blog-single"
                   className="block-20"
                   style={{
                     backgroundImage:
@@ -49,7 +49,7 @@ function RecentPosts() {
             <div className="col-md-4 d-flex ftco-animate">
               <div className="blog-entry justify-content-end">
                 <a
-                  href="blog-single.html"
+                  href="blog-single"
                   className="block-20"
                   style={{
                     backgroundImage:
@@ -83,7 +83,7 @@ function RecentPosts() {
             <div className="col-md-4 d-flex ftco-animate">
               <div className="blog-entry">
                 <a
-                  href="blog-single.html"
+                  href="blog-single"
                   className="block-20"
                   style={{
                     backgroundImage:

@@ -22,7 +22,7 @@ function About() {
               <div className="coach align-items-stretch">
                 <div
                   className="img"
-                  style={{ backgroundImage: 'url(/gallery/VStarYoga3.JPG)' }}
+                  style={{ backgroundImage: 'url(/images/VStarYoga3.JPG)' }}
                 ></div>
                 <div className="text bg-white p-4 ftco-animate">
                   <span className="subheading">
