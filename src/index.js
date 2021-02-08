@@ -16,7 +16,7 @@ ReactDOM.render(
           <Home />
         </Route>
         <Route path="/gallery">
-          <Gallery />
+          <Gallery banner={true} />
         </Route>
         <Route path="/about">
           <About />

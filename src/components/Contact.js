@@ -9,7 +9,7 @@ function Contact() {
           'https://images.unsplash.com/photo-1528319355578-ebbbc586afac?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80'
         }
         header={'Contact Veronica'}
-        detail={'Inquiries Requests Comments'}
+        detail={<div>Inquiries &#8226; Requests &#8226; Comments </div>}
         textColor={'white'}
       />
       <section class="ftco-section contact-section ftco-no-pt ftco-no-pb">
