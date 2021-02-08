@@ -5,5 +5,6 @@ import Gallery from './Gallery'
 import About from './About';
 import Classes from './Classes'
 import Schedule from './Schedule'
+import Blog from './Blog';
 
-export { Footer, Navbar, Home, Gallery, About, Classes, Schedule };
+export { Footer, Navbar, Home, Gallery, About, Classes, Schedule, Blog };
