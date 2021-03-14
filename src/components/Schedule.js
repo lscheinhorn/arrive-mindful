@@ -24,7 +24,7 @@ function Schedule(props) {
                   ? "This Week's"
                   : `${new Date().toLocaleString('default', {
                       month: 'long',
-                    })}'s`}{' '}
+                    })}`}{' '}
                 Schedule
               </h2>
             </div>

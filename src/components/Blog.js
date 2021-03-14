@@ -12,6 +12,7 @@ function Blog() {
         detail={'Meditations and Ruminations'}
         textColor={'white'}
       />
+      <h2 className="mb-1">Stay tuned for upcoming blog posts...</h2>
     </>
   );
 }
