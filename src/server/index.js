@@ -19,7 +19,6 @@ app.get('/ping', function (req, res) {
 app.get('/pics', function (req, res) {
   fs.readdir(testFolder, (err, files) => {
     const gallery = files.filter((file) => file.includes('VStarYoga'));
-    gallery.unshift(testFolder)
     console.log({gallery})
     res.send(gallery)
   });

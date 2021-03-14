@@ -39,119 +39,21 @@ console.log({ pics });
             </div>
           )}
           <div className="row">
-            <div className="col-md-3 ftco-animate">
-              <a
-                href="images/gallery-1.jpg"
-                className="gallery image-popup img d-flex align-items-center"
-                style={{
-                  backgroundImage:
-                    'url(https://images.unsplash.com/photo-1562776854-d151b0dd5ec0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2851&q=80)',
-                }}
-              >
-                <div className="icon mb-4 d-flex align-items-center justify-content-center">
-                  <span className="icon-instagram"></span>
-                </div>
-              </a>
-            </div>
-            <div className="col-md-3 ftco-animate">
-              <a
-                href="images/gallery-2.jpg"
-                className="gallery image-popup img d-flex align-items-center"
-                style={{
-                  backgroundImage:
-                    `images/`,
-                }}
-              >
-                <div className="icon mb-4 d-flex align-items-center justify-content-center">
-                  <span className="icon-instagram"></span>
-                </div>
-              </a>
-            </div>
-            <div className="col-md-3 ftco-animate">
-              <a
-                href="images/gallery-3.jpg"
-                className="gallery image-popup img d-flex align-items-center"
-                style={{
-                  backgroundImage:
-                    'url(https://images.unsplash.com/photo-1528319355578-ebbbc586afac?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80)',
-                }}
-              >
-                <div className="icon mb-4 d-flex align-items-center justify-content-center">
-                  <span className="icon-instagram"></span>
-                </div>
-              </a>
-            </div>
-            <div className="col-md-3 ftco-animate">
-              <a
-                href="images/gallery-4.jpg"
-                className="gallery image-popup img d-flex align-items-center"
-                style={{
-                  backgroundImage:
-                    'url(https://images.unsplash.com/photo-1591291621164-2c6367723315?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2851&q=80)',
-                }}
-              >
-                <div className="icon mb-4 d-flex align-items-center justify-content-center">
-                  <span className="icon-instagram"></span>
-                </div>
-              </a>
-            </div>
-
-            <div className="col-md-3 ftco-animate">
-              <a
-                href="images/gallery-5.jpg"
-                className="gallery image-popup img d-flex align-items-center"
-                style={{
-                  backgroundImage:
-                    'url(https://images.unsplash.com/photo-1501718037961-bb722c970f08?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2766&q=80)',
-                }}
-              >
-                <div className="icon mb-4 d-flex align-items-center justify-content-center">
-                  <span className="icon-instagram"></span>
-                </div>
-              </a>
-            </div>
-            <div className="col-md-3 ftco-animate">
-              <a
-                href="images/gallery-6.jpg"
-                className="gallery image-popup img d-flex align-items-center"
-                style={{
-                  backgroundImage:
-                    'url(https://images.unsplash.com/photo-1552911163-16e36d8519ce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80)',
-                }}
-              >
-                <div className="icon mb-4 d-flex align-items-center justify-content-center">
-                  <span className="icon-instagram"></span>
-                </div>
-              </a>
-            </div>
-            <div className="col-md-3 ftco-animate">
-              <a
-                href="images/gallery-7.jpg"
-                className="gallery image-popup img d-flex align-items-center"
-                style={{
-                  backgroundImage:
-                    'url(https://images.unsplash.com/photo-1520363147109-9ab9d1c8f8a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2848&q=80)',
-                }}
-              >
-                <div className="icon mb-4 d-flex align-items-center justify-content-center">
-                  <span className="icon-instagram"></span>
-                </div>
-              </a>
-            </div>
-            <div className="col-md-3 ftco-animate">
-              <a
-                href="images/gallery-8.jpg"
-                className="gallery image-popup img d-flex align-items-center"
-                style={{
-                  backgroundImage:
-                    'url(https://images.unsplash.com/photo-1502139214982-d0ad755818d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80)',
-                }}
-              >
-                <div className="icon mb-4 d-flex align-items-center justify-content-center">
-                  <span className="icon-instagram"></span>
-                </div>
-              </a>
-            </div>
+            {pics.map((picTitle) => (
+              <div className="col-md-3 ftco-animate" key={picTitle}>
+                <a
+                  href={`images/${picTitle}`}
+                  className="gallery image-popup img d-flex align-items-center"
+                  style={{
+                    backgroundImage: `url(images/${picTitle})`,
+                  }}
+                >
+                  <div className="icon mb-4 d-flex align-items-center justify-content-center">
+                    <span className="icon-instagram"></span>
+                  </div>
+                </a>
+              </div>
+            ))}
           </div>
         </div>
       </section>
