@@ -1,7 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Banner from './Banner'
 
+
+
+
 function Gallery(props) {
+const [pics, setPics] = useState([]);
+
+async function getPics() {
+  let picTitles = await fetch('/pics').then((pics) => pics.json());
+  setPics(picTitles);
+}
+
+useEffect(() => {
+  getPics()
+},[])
+
+console.log({ pics });
   return (
     <>
       {props.banner ? (
@@ -19,7 +34,7 @@ function Gallery(props) {
           {props.banner ? null : (
             <div className="row justify-content-center mb-5 pb-3">
               <div className="col-md-7 heading-section ftco-animate text-center">
-                <h2 className="mb-1">See the latest photos</h2>
+                <h2 className="mb-1">Gallery photos</h2>
               </div>
             </div>
           )}
@@ -44,7 +59,7 @@ function Gallery(props) {
                 className="gallery image-popup img d-flex align-items-center"
                 style={{
                   backgroundImage:
-                    'url(https://images.unsplash.com/photo-1611800065476-b295f882c8ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2904&q=80)',
+                    `images/`,
                 }}
               >
                 <div className="icon mb-4 d-flex align-items-center justify-content-center">
