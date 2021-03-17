@@ -18,7 +18,7 @@ function ClassesHome() {
                   countries Vokalia and Consonantia, there live the blind texts.
                 </p>
                 <p>
-                  <a href="#" className="btn btn-white px-4 py-3">
+                  <a href="/classes" className="btn btn-white px-4 py-3">
                     {' '}
                     Learn more{' '}
                     <span className="ion-ios-arrow-round-forward"></span>
@@ -42,7 +42,7 @@ function ClassesHome() {
                   countries Vokalia and Consonantia, there live the blind texts.
                 </p>
                 <p>
-                  <a href="#" className="btn btn-white px-4 py-3">
+                  <a href="/classes" className="btn btn-white px-4 py-3">
                     {' '}
                     Learn more{' '}
                     <span className="ion-ios-arrow-round-forward"></span>
@@ -66,7 +66,7 @@ function ClassesHome() {
                   countries Vokalia and Consonantia, there live the blind texts.
                 </p>
                 <p>
-                  <a href="#" className="btn btn-white px-4 py-3">
+                  <a href="/classes" className="btn btn-white px-4 py-3">
                     {' '}
                     Learn more{' '}
                     <span className="ion-ios-arrow-round-forward"></span>
@@ -91,7 +91,7 @@ function ClassesHome() {
                   countries Vokalia and Consonantia, there live the blind texts.
                 </p>
                 <p>
-                  <a href="#" className="btn btn-white px-4 py-3">
+                  <a href="/classes" className="btn btn-white px-4 py-3">
                     {' '}
                     Learn more{' '}
                     <span className="ion-ios-arrow-round-forward"></span>

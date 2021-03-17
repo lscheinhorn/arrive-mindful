@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import Banner from './Banner';
 
 function Classes() {
+  const [hover, setHover] = useState(false);
   const [classList, setClassList] = useState([
     {
       title: 'Introductory Yoga',
@@ -47,12 +48,30 @@ function Classes() {
               <div className="col-md-6">
                 <div className="classes w-100 ftco-animate">
                   <a
+                    onMouseEnter={() => setHover(true)}
+                    onMouseLeave={() => setHover(false)}
                     href="/contact"
                     className="img w-100 mb-3"
                     style={{
                       backgroundImage: `url(images/${classItem.backgroundImage})`,
                     }}
-                  ></a>
+                  >
+                    {hover && (
+                      <h3
+                        className="text w-100 text-center"
+                        style={{
+                          height: '100%',
+                          width: '100%',
+                          backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                          textAlign: 'center',
+                          padding: '30%',
+                          color: '#ffb5b5',
+                        }}
+                      >
+                        Schedule a class
+                      </h3>
+                    )}
+                  </a>
                   <div className="text w-100 text-center">
                     <h3>
                       <a href="/contact">{classItem.title}</a>
