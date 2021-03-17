@@ -60,8 +60,6 @@ function Classes() {
               <div className="col-md-6" key={classItem.title}>
                 <div className="classes w-100 ftco-animate">
                   <a
-                    onMouseEnter={() => setHover(true)}
-                    onMouseLeave={() => setHover(false)}
                     href="/contact"
                     className="img w-100 mb-3"
                     style={{
