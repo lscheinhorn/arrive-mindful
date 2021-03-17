@@ -29,15 +29,35 @@ function About() {
                     Yoga Instructor / Mindfulness Coach
                   </span>
                   <h3>
-                    <a href="#">Veronica Stocker</a>
+                    <a href="#">Veronica Rose Stocker</a>
                   </h3>
                   <p>
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
+                    Veronica Rose is a certified yoga instructor with training
+                    from the Kripalu Institute in Lenox, MA and the Sacred Lasya
+                    Vinyasa training held in Kerala, India. She is currently in
+                    graduate school at Teachers College, Columbia University
+                    studying spiritual psychology and the spirit-mind-body
+                    connection. Veronica is visually impaired and has witnessed
+                    first-hand how internalizing the stories we are told about
+                    ourselves from society, or the stories we tell ourselves
+                    from our past traumas can hold us back in profound and
+                    crippling ways. Her life’s work has been to empower those
+                    who have been disempowered by the life they were born into,
+                    the trauma they have experienced, the disadvantage they step
+                    into from a position of marginalization, or from ancestral
+                    wounds transmitted intergenerationally. She believes in the
+                    power of mindfulness to become more conscious of the
+                    barriers that prevent us from living the life we want in
+                    order to break them down and step into the possibilities
+                    that stand on the other side. Veronica has a dream for each
+                    of her clients, present and future. The purpose is to Arrive
+                    Mindful, showing up fully to each moment of your life. The
+                    journey is through yoga, meditation, and developing
+                    conscious insight. The manifestation is an existence filled
+                    with joy, possibility, and peace.
                   </p>
                   <ul className="ftco-social-media d-flex mt-4">
-                    <li className="ftco-animate">
+                    {/* <li className="ftco-animate">
                       <a
                         href="#"
                         className="mr-2 d-flex justify-content-center align-items-center"
@@ -52,10 +72,11 @@ function About() {
                       >
                         <span className="icon-facebook"></span>
                       </a>
-                    </li>
+                    </li> */}
                     <li className="ftco-animate">
                       <a
-                        href="#"
+                        target="_blank"
+                        href="https://www.instagram.com/veronicaroseonup/"
                         className="mr-2 d-flex justify-content-center align-items-center"
                       >
                         <span className="icon-instagram"></span>

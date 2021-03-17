@@ -1,8 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import Banner from './Banner';
 
 function Classes() {
+  // const [hoverItem, setHoverItem] = useState({});
+
+  // NOTE: You cannot hover over a hidden element. One solution is to nest the element inside another container:
+  const setHover = (event) => {
+    let setTarget = event.target.querySelector('h3') || event.target;
+    // setHoverItem(setTarget);
+    setTarget.style.visibility = 'visible';
+  };
+  const removeHover = (event) => {
+    let removeTarget = event.target.querySelector('h3') || event.target;
+    removeTarget.style.visibility = 'hidden';
+    // setHoverItem({});
+  };
   const [classList, setClassList] = useState([
     {
       title: 'Introductory Yoga',
@@ -44,7 +57,7 @@ function Classes() {
         <div className="container">
           <div className="row">
             {classList.map((classItem) => (
-              <div className="col-md-6">
+              <div className="col-md-6" key={classItem.title}>
                 <div className="classes w-100 ftco-animate">
                   <a
                     href="/contact"
@@ -52,7 +65,32 @@ function Classes() {
                     style={{
                       backgroundImage: `url(images/${classItem.backgroundImage})`,
                     }}
-                  ></a>
+                  >
+                    <div
+                      style={{
+                        height: '100%',
+                        width: '100%',
+                      }}
+                      onMouseEnter={(e) => setHover(e)}
+                      onMouseLeave={(e) => removeHover(e)}
+                    >
+                      <h3
+                        id="hover-item"
+                        className="text w-100 text-center"
+                        style={{
+                          height: '100%',
+                          width: '100%',
+                          backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                          textAlign: 'center',
+                          padding: '30%',
+                          color: '#ffb5b5',
+                          visibility: 'hidden',
+                        }}
+                      >
+                        Schedule a class
+                      </h3>
+                    </div>
+                  </a>
                   <div className="text w-100 text-center">
                     <h3>
                       <a href="/contact">{classItem.title}</a>
@@ -69,4 +107,4 @@ function Classes() {
   );
 }
 
-export default Classes
+export default Classes;
