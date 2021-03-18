@@ -125,7 +125,7 @@ function Contact() {
                 </div>
                 <div className="col-md-12 mb-3">
                   <p>
-                    Please make scheduling requests on this page.
+                    Scheduling requests can be made on this page. Please include the date and time you'd like to book as well as the class type and any special requests. Classes are held remotely via Zoom. The Zoom class link will be shared via email once details are confirmed so please check that your email address is correct.
                   </p>
                 </div>
               </div>

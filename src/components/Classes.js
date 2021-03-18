@@ -1,20 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Banner from './Banner';
 
 function Classes() {
-  // const [hoverItem, setHoverItem] = useState({});
-
   // NOTE: You cannot hover over a hidden element. One solution is to nest the element inside another container:
   const setHover = (event) => {
     let setTarget = event.target.querySelector('h3') || event.target;
-    // setHoverItem(setTarget);
     setTarget.style.visibility = 'visible';
   };
   const removeHover = (event) => {
     let removeTarget = event.target.querySelector('h3') || event.target;
     removeTarget.style.visibility = 'hidden';
-    // setHoverItem({});
   };
   const [classList, setClassList] = useState([
     {
@@ -63,6 +59,8 @@ function Classes() {
                     href="/contact"
                     className="img w-100 mb-3"
                     style={{
+                      width: '100%',
+                      height: '100%',
                       backgroundImage: `url(images/${classItem.backgroundImage})`,
                     }}
                   >
