@@ -15,16 +15,16 @@ async function mail(event) {
 
   console.log(data.name, data.email, data.subject, data.message);
 
-  // try {
-  //     const response = await fetch('/email', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify(data),
-  //     });
+  try {
+    const response = await fetch('/email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
 
-  //     console.log(await response.json());
+    console.log(await response.json());
     event.target.reset();
     swal({
       title: `Thank you for your message, ${data.name.split(' ').shift()}!`,
@@ -32,39 +32,14 @@ async function mail(event) {
       icon: 'success',
       button: 'Great!',
     });
-  // } catch(err){
-  //   console.error(err)
-  // }
+  } catch(err){
+    console.error(err)
+  }
 
 }
 
 
 function Contact() {
-  // const [name, setName] = useState('')
-  // const [email, setEmail] = useState('');
-  // const [subject, setSubject] = useState('');
-  // const [message, setMessage] = useState('');
-
-  // const formControl = (event) => {
-  //   console.log('change', event.target.name, event.target.value);
-  //   switch(event.target.name) {
-  //     case 'name':
-  //       setName(event.target.value);
-  //       break;
-  //     case 'email':
-  //       setEmail(event.target.value);
-  //       break;
-  //     case 'subject':
-  //       setSubject(event.target.value);
-  //       break;
-  //     case 'message':
-  //       setMessage(event.target.value);
-  //       break;
-  //     default:
-  //       console.log(event.target.name, ' is not an option')
-  //   }
-  // };
-
   const copyToClipboard = (e) => {
     var textField = document.createElement('textarea');
     textField.innerText = 'veronica@arrivemindful.com';
@@ -91,18 +66,6 @@ function Contact() {
                 <div className="col-md-12 mb-4">
                   <h2>Contact Information</h2>
                 </div>
-                {/* <div className="col-md-12 mb-3">
-                  <p>
-                    <span>Address:</span> 198 West 21th Street, Suite 721 New
-                    York NY 10016
-                  </p>
-                </div>
-                <div className="col-md-12 mb-3">
-                  <p>
-                    <span>Phone:</span>{' '}
-                    <a href="tel://1234567920">+ 1235 2355 98</a>
-                  </p>
-                </div> */}
                 <div className="col-md-12 mb-3">
                   <p>
                     <span>Veronica Rose Stocker</span>
