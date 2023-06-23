@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/arrive-mindful/static/css/main.e363fecd.chunk.css",
+    "main.js": "/arrive-mindful/static/js/main.4a8186f8.chunk.js",
+    "main.js.map": "/arrive-mindful/static/js/main.4a8186f8.chunk.js.map",
+    "runtime-main.js": "/arrive-mindful/static/js/runtime-main.bd3059b3.js",
+    "runtime-main.js.map": "/arrive-mindful/static/js/runtime-main.bd3059b3.js.map",
+    "static/js/2.9d20c5b4.chunk.js": "/arrive-mindful/static/js/2.9d20c5b4.chunk.js",
+    "static/js/2.9d20c5b4.chunk.js.map": "/arrive-mindful/static/js/2.9d20c5b4.chunk.js.map",
+    "static/js/3.b540c033.chunk.js": "/arrive-mindful/static/js/3.b540c033.chunk.js",
+    "static/js/3.b540c033.chunk.js.map": "/arrive-mindful/static/js/3.b540c033.chunk.js.map",
+    "index.html": "/arrive-mindful/index.html",
+    "static/css/main.e363fecd.chunk.css.map": "/arrive-mindful/static/css/main.e363fecd.chunk.css.map",
+    "static/js/2.9d20c5b4.chunk.js.LICENSE.txt": "/arrive-mindful/static/js/2.9d20c5b4.chunk.js.LICENSE.txt",
+    "static/media/flaticon.css": "/arrive-mindful/static/media/Flaticon.fb22755d.eot",
+    "static/media/icomoon.css": "/arrive-mindful/static/media/icomoon.f76c54c1.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd3059b3.js",
+    "static/js/2.9d20c5b4.chunk.js",
+    "static/css/main.e363fecd.chunk.css",
+    "static/js/main.4a8186f8.chunk.js"
+  ]
+}
