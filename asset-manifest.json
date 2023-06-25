@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/arrive-mindful/static/css/main.e363fecd.chunk.css",
-    "main.js": "/arrive-mindful/static/js/main.4a8186f8.chunk.js",
-    "main.js.map": "/arrive-mindful/static/js/main.4a8186f8.chunk.js.map",
+    "main.js": "/arrive-mindful/static/js/main.12e2f0a5.chunk.js",
+    "main.js.map": "/arrive-mindful/static/js/main.12e2f0a5.chunk.js.map",
     "runtime-main.js": "/arrive-mindful/static/js/runtime-main.bd3059b3.js",
     "runtime-main.js.map": "/arrive-mindful/static/js/runtime-main.bd3059b3.js.map",
     "static/js/2.9d20c5b4.chunk.js": "/arrive-mindful/static/js/2.9d20c5b4.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.bd3059b3.js",
     "static/js/2.9d20c5b4.chunk.js",
     "static/css/main.e363fecd.chunk.css",
-    "static/js/main.4a8186f8.chunk.js"
+    "static/js/main.12e2f0a5.chunk.js"
   ]
 }
