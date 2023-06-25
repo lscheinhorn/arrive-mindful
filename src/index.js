@@ -12,28 +12,28 @@ ReactDOM.render(
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/home">
+        <Route path="arrive-mindful/home">
           <Home />
         </Route>
-        <Route path="/gallery">
+        <Route path="arrive-mindful/gallery">
           <Gallery banner={true} />
         </Route>
-        <Route path="/about">
+        <Route path="arrive-mindful/about">
           <About />
         </Route>
-        <Route path="/classes">
+        <Route path="arrive-mindful/classes">
           <Classes />
         </Route>
-        <Route path="/schedule">
+        <Route path="arrive-mindful/schedule">
           <Schedule range="month" banner={true} />
         </Route>
-        <Route path="/blog">
+        <Route path="arrive-mindful/blog">
           <Blog />
         </Route>
-        <Route path="/contact">
+        <Route path="arrive-mindful/contact">
           <Contact />
         </Route>
-        <Route exact path="/">
+        <Route exact path="arrive-mindful/">
           <Home />
         </Route>
       </Switch>
