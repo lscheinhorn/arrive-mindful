@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/arrive-mindful/static/css/main.e363fecd.chunk.css",
-    "main.js": "/arrive-mindful/static/js/main.12e2f0a5.chunk.js",
-    "main.js.map": "/arrive-mindful/static/js/main.12e2f0a5.chunk.js.map",
-    "runtime-main.js": "/arrive-mindful/static/js/runtime-main.bd3059b3.js",
-    "runtime-main.js.map": "/arrive-mindful/static/js/runtime-main.bd3059b3.js.map",
-    "static/js/2.9d20c5b4.chunk.js": "/arrive-mindful/static/js/2.9d20c5b4.chunk.js",
-    "static/js/2.9d20c5b4.chunk.js.map": "/arrive-mindful/static/js/2.9d20c5b4.chunk.js.map",
-    "static/js/3.b540c033.chunk.js": "/arrive-mindful/static/js/3.b540c033.chunk.js",
-    "static/js/3.b540c033.chunk.js.map": "/arrive-mindful/static/js/3.b540c033.chunk.js.map",
+    "main.css": "/arrive-mindful/static/css/main.c11f01d2.css",
+    "main.js": "/arrive-mindful/static/js/main.ede0de38.js",
+    "static/js/377.e0187506.chunk.js": "/arrive-mindful/static/js/377.e0187506.chunk.js",
+    "static/media/icomoon.svg?6tt51o": "/arrive-mindful/static/media/icomoon.9cc47145c3e61b03d8b8.svg",
+    "static/media/icomoon.eot?6tt51o": "/arrive-mindful/static/media/icomoon.f76c54c12541e67c3ab1.eot",
+    "static/media/icomoon.woff?6tt51o": "/arrive-mindful/static/media/icomoon.1b3e525e9b8ab061f068.woff",
+    "static/media/icomoon.ttf?6tt51o": "/arrive-mindful/static/media/icomoon.31964debf8ad35e86c51.ttf",
+    "static/media/Flaticon.svg": "/arrive-mindful/static/media/Flaticon.e54c0edd8a18d35862f2.svg",
+    "static/media/Flaticon.eot": "/arrive-mindful/static/media/Flaticon.fb22755de28dfa12e33d.eot",
+    "static/media/Flaticon.ttf": "/arrive-mindful/static/media/Flaticon.08ddafb111790841b4c5.ttf",
+    "static/media/Flaticon.woff": "/arrive-mindful/static/media/Flaticon.00c17e881ecd67aa6400.woff",
     "index.html": "/arrive-mindful/index.html",
-    "static/css/main.e363fecd.chunk.css.map": "/arrive-mindful/static/css/main.e363fecd.chunk.css.map",
-    "static/js/2.9d20c5b4.chunk.js.LICENSE.txt": "/arrive-mindful/static/js/2.9d20c5b4.chunk.js.LICENSE.txt",
-    "static/media/flaticon.css": "/arrive-mindful/static/media/Flaticon.fb22755d.eot",
-    "static/media/icomoon.css": "/arrive-mindful/static/media/icomoon.f76c54c1.eot"
+    "main.c11f01d2.css.map": "/arrive-mindful/static/css/main.c11f01d2.css.map",
+    "main.ede0de38.js.map": "/arrive-mindful/static/js/main.ede0de38.js.map",
+    "377.e0187506.chunk.js.map": "/arrive-mindful/static/js/377.e0187506.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd3059b3.js",
-    "static/js/2.9d20c5b4.chunk.js",
-    "static/css/main.e363fecd.chunk.css",
-    "static/js/main.12e2f0a5.chunk.js"
+    "static/css/main.c11f01d2.css",
+    "static/js/main.ede0de38.js"
   ]
 }
