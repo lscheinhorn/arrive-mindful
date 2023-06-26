@@ -2,7 +2,7 @@
   "name": "arrive-mindful-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gitname.github.io/arrive-mindful",
+  "homepage": "https://lscheinhorn.github.io/arrive-mindful",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
