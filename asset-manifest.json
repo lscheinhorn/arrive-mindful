@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/arrive-mindful/static/css/main.c11f01d2.css",
-    "main.js": "/arrive-mindful/static/js/main.ede0de38.js",
-    "static/js/377.e0187506.chunk.js": "/arrive-mindful/static/js/377.e0187506.chunk.js",
-    "static/media/icomoon.svg?6tt51o": "/arrive-mindful/static/media/icomoon.9cc47145c3e61b03d8b8.svg",
-    "static/media/icomoon.eot?6tt51o": "/arrive-mindful/static/media/icomoon.f76c54c12541e67c3ab1.eot",
-    "static/media/icomoon.woff?6tt51o": "/arrive-mindful/static/media/icomoon.1b3e525e9b8ab061f068.woff",
-    "static/media/icomoon.ttf?6tt51o": "/arrive-mindful/static/media/icomoon.31964debf8ad35e86c51.ttf",
-    "static/media/Flaticon.svg": "/arrive-mindful/static/media/Flaticon.e54c0edd8a18d35862f2.svg",
-    "static/media/Flaticon.eot": "/arrive-mindful/static/media/Flaticon.fb22755de28dfa12e33d.eot",
-    "static/media/Flaticon.ttf": "/arrive-mindful/static/media/Flaticon.08ddafb111790841b4c5.ttf",
-    "static/media/Flaticon.woff": "/arrive-mindful/static/media/Flaticon.00c17e881ecd67aa6400.woff",
-    "index.html": "/arrive-mindful/index.html",
-    "main.c11f01d2.css.map": "/arrive-mindful/static/css/main.c11f01d2.css.map",
-    "main.ede0de38.js.map": "/arrive-mindful/static/js/main.ede0de38.js.map",
-    "377.e0187506.chunk.js.map": "/arrive-mindful/static/js/377.e0187506.chunk.js.map"
+    "main.css": "/static/css/main.5648722c.css",
+    "main.js": "/static/js/main.f8ef8286.js",
+    "static/js/377.e0187506.chunk.js": "/static/js/377.e0187506.chunk.js",
+    "static/media/icomoon.svg?6tt51o": "/static/media/icomoon.9cc47145c3e61b03d8b8.svg",
+    "static/media/icomoon.eot?6tt51o": "/static/media/icomoon.f76c54c12541e67c3ab1.eot",
+    "static/media/icomoon.woff?6tt51o": "/static/media/icomoon.1b3e525e9b8ab061f068.woff",
+    "static/media/icomoon.ttf?6tt51o": "/static/media/icomoon.31964debf8ad35e86c51.ttf",
+    "static/media/Flaticon.svg": "/static/media/Flaticon.e54c0edd8a18d35862f2.svg",
+    "static/media/Flaticon.eot": "/static/media/Flaticon.fb22755de28dfa12e33d.eot",
+    "static/media/Flaticon.ttf": "/static/media/Flaticon.08ddafb111790841b4c5.ttf",
+    "static/media/Flaticon.woff": "/static/media/Flaticon.00c17e881ecd67aa6400.woff",
+    "index.html": "/index.html",
+    "main.5648722c.css.map": "/static/css/main.5648722c.css.map",
+    "main.f8ef8286.js.map": "/static/js/main.f8ef8286.js.map",
+    "377.e0187506.chunk.js.map": "/static/js/377.e0187506.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c11f01d2.css",
-    "static/js/main.ede0de38.js"
+    "static/css/main.5648722c.css",
+    "static/js/main.f8ef8286.js"
   ]
 }
