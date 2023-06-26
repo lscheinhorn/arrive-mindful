@@ -38,7 +38,7 @@ root.render(
           element={<Blog />}
         />
         <Route 
-          path="/contact"
+          path="contact"
           element={<Contact />}
         />
         <Route 
