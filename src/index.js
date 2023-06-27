@@ -4,37 +4,38 @@ import './css/style.css'
 import './css/flaticon.css';
 import './css/icomoon.css';
 import { Navbar, Footer, Home, Gallery, About, Classes, Schedule, Blog, Contact } from './components';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Router, Routes, Route } from 'react-router-dom';
 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
     <Router>
       <Navbar />
       <Routes>
         <Route 
-          path="/home"
+          path="home"
           element={<Home />}
         />
         <Route 
-          path="/gallery"
+          path="gallery"
           element={<Gallery banner={true} />}
         />
         <Route 
-          path="/about"
+          path="about"
           element={<About />}
         />
         <Route 
-          path="/classes"
+          path="classes"
           element={<Classes />}
         />
         <Route 
-          path="/schedule"
+          path="schedule"
           element={<Schedule range="month" banner={true} />}
         />
         <Route 
-          path="/blog"
+          path="blog"
           element={<Blog />}
         />
         <Route 
@@ -42,12 +43,13 @@ root.render(
           element={<Contact />}
         />
         <Route 
-          exact path="/"
+          exact path=""
           element={<Home />}
         />
       </Routes>
       <Footer />
-    </Router>);
+    </Router>
+  </BrowserRouter>);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
