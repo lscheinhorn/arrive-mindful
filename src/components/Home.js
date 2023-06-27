@@ -5,6 +5,7 @@ import Schedule from './Schedule'
 import ClassesHome from './ClassesHome'
 import YogaBenefits from './YogaBenefits'
 import Gallery from './Gallery'
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -36,12 +37,12 @@ function Home() {
                     Infinite Possibilities Unfold Before You
                   </h3>
                   <p>
-                    <a
-                      href="classes"
+                    <Link
+                      to="/classes"
                       className="btn btn-white btn-outline-white px-4 py-3 mt-3"
                     >
                       View classes
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>

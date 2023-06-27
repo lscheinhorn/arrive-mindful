@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 function Footer() {
   const copyToClipboard = (e) => {
     var textField = document.createElement('textarea');
@@ -58,19 +60,19 @@ function Footer() {
                 <h2 className="ftco-heading-2">Quick Links</h2>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="/home">Home</a>
+                    <Link to="/home">Home</Link>
                   </li>
                   <li>
-                    <a href="/about">About</a>
+                    <Link to="/about">About</Link>
                   </li>
                   <li>
-                    <a href="/classes">Classes</a>
+                    <Link to="/classes">Classes</Link>
                   </li>
                   <li>
-                    <a href="/schedule">Schedule</a>
+                    <Link to="/schedule">Schedule</Link>
                   </li>
                   <li>
-                    <a href="/contact">Contact</a>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -83,12 +85,12 @@ function Footer() {
                     {/* <li><span className="icon icon-map-marker"></span><span className="text">Based out of Summit, New Jersey USA</span></li>
                   <li><a href="#"><span className="icon icon-phone"></span><span className="text">+1 914 123 4567</span></a></li> */}
                     <li>
-                      <a href="/contact">
+                      <Link to="/contact">
                         <span className="icon icon-envelope"></span>
                         <span id="email-address" className="text">
                           veronica@arrivemindful.com
                         </span>
-                      </a>
+                      </Link>
                       <span
                         className="icon icon-copy"
                         onClick={copyToClipboard}

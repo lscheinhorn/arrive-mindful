@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from 'react';
 import Banner from './Banner';
+import { Link } from 'react-router-dom';
 
 function Classes() {
   // NOTE: You cannot hover over a hidden element. One solution is to nest the element inside another container:
@@ -55,8 +56,8 @@ function Classes() {
             {classList.map((classItem) => (
               <div className="col-md-6" key={classItem.title}>
                 <div className="classes w-100 ftco-animate">
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="img w-100 mb-3"
                     style={{
                       width: '100%',
@@ -88,10 +89,10 @@ function Classes() {
                         Schedule a class
                       </h3>
                     </div>
-                  </a>
+                  </Link>
                   <div className="text w-100 text-center">
                     <h3>
-                      <a href="/contact">{classItem.title}</a>
+                      <Link to="/contact">{classItem.title}</Link>
                     </h3>
                     <p>{classItem.description}</p>
                   </div>

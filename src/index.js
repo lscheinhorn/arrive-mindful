@@ -4,14 +4,13 @@ import './css/style.css'
 import './css/flaticon.css';
 import './css/icomoon.css';
 import { Navbar, Footer, Home, Gallery, About, Classes, Schedule, Blog, Contact } from './components';
-import { HashRouter, Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter basename={`/${process.env.PUBLIC_URL}`}>
-    <Router>
+    <HashRouter basename={`/${process.env.PUBLIC_URL}`}>
       <Navbar />
       <Routes>
         <Route 
@@ -43,13 +42,12 @@ root.render(
           element={<Contact />}
         />
         <Route 
-          exact path=""
+          exact path="/"
           element={<Home />}
         />
       </Routes>
       <Footer />
-    </Router>
-  </HashRouter>);
+    </HashRouter>);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

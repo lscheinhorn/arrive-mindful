@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 // TODO: Fix hamburger menu
 function Navbar() {
   return (
@@ -10,9 +11,9 @@ function Navbar() {
         <div className="container">
           <div className="row m-auto">
             <div className="col-12 w-100 text-center">
-              <a className="navbar-brand w-100" href="home">
+              <Link className="navbar-brand w-100" to="home">
                 Arrive Mindful
-              </a>
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -29,39 +30,39 @@ function Navbar() {
               <div className="collapse navbar-collapse" id="ftco-nav">
                 <ul className="navbar-nav m-auto">
                   <li className="nav-item active">
-                    <a href="home" className="nav-link">
+                    <Link to="home" className="nav-link">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="about" className="nav-link">
+                    <Link to="about" className="nav-link">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="classes" className="nav-link">
+                    <Link to="classes" className="nav-link">
                       Classes
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="schedule" className="nav-link">
+                    <Link to="schedule" className="nav-link">
                       Schedule
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="blog" className="nav-link">
+                    <Link to="blog" className="nav-link">
                       Blog
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="gallery" className="nav-link">
+                    <Link to="gallery" className="nav-link">
                       Gallery
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="contact" className="nav-link">
+                    <Link to="contact" className="nav-link">
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
