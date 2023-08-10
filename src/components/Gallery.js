@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Banner from './Banner'
 
 
-
+//TODO get picTitles client side
 
 function Gallery(props) {
 const [pics, setPics] = useState([]);
